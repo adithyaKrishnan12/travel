@@ -1,0 +1,130 @@
+header{
+    width: 100%;
+    height: 700px;
+    background-image:url(./img/simon-english-48nerZQCHgo-unsplash.jpg);
+    text-align: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    top: 0px;
+}
+
+
+.text-white{
+    font-size: 90px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+ }
+.search{
+    /* border: solid red; */
+    margin-bottom: 500px;
+   
+}
+.sub,.sub-title{
+  font-family: 'Oswald', sans-serif;
+}
+
+.card{
+    border: 0;
+     transition: .3s;
+    }
+     .card:hover{
+        transform: scale(1.05);
+      }
+      
+
+.search-content{ 
+    border-radius: 1px;
+    background-color: aliceblue;
+  }
+ 
+  .search-container{
+    /* border: solid red; */
+     /* margin-bottom: 270px; */
+      background-color: rgba(255,255,255,0.26);
+     border-radius: 20px;
+  }
+  
+.text{
+  font-family: 'Poppins', sans-serif;
+  
+}
+ .icon:hover i{
+    color: skyblue;
+
+  
+  }
+.sup:hover a{
+    color: skyblue;
+}
+
+     footer{
+        background-color: rgb(20, 80, 232);
+        font-weight: 500;
+        border: 0.1px solid rgb(20, 80, 232);
+    }
+    
+    footer ul{
+        list-style: none;
+        margin-top: 0.5rem;
+    }
+    
+    footer ul a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+    }
+    
+    .footer-h5, footer span{
+        color: rgb(213, 255, 208);
+        font-weight: bold;
+    }
+    
+    footer ul li i{
+        color: #fff;
+    }
+    .reviewer-img {
+        width: 8rem;
+    }
+
+
+    .title{
+       
+        width: 100%;
+        /* border: solid red; */
+        margin-top: 250px;
+     
+    }
+
+    .bg-primary {
+        background-color: rgba(22, 75, 236, 0.542) !important;
+        box-shadow: 0 0 1px rgba(81, 148, 184, 0.645);
+    }
+   
+    .navbar-brand img {
+        width: 2rem;
+    } 
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* -ms-transform: translate(-50%, -50%); */
+        text-align: center;
+      }
+      
+      .card:hover .image {
+        opacity: 0.3;
+      }
+      
+      .card:hover .middle {
+        opacity: 1;
+      }
+      .card:hover {
+        box-shadow: 0 28px 40px -12px rgba(0,0,0,0.24);
+        transform: scale(1.05);
+      }
+    
